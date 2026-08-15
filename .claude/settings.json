@@ -1,0 +1,4 @@
+{
+  "contextLength": 8000,
+  "commands": ".claude/commands.json"
+}

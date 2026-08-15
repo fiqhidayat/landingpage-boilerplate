@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "name": "generate-landing-page",
+      "alias": "gen-lp",
+      "description": "Generate landing page with AI. Creates PRD, spec, tasks, progress docs.",
+      "action": "skill",
+      "skill": "generate-landing-page",
+      "help": "Usage: /generate-landing-page\n\nGenerates complete landing page documentation:\n1. Asks for product info (name, category, colors, etc)\n2. Recommends color scheme based on category\n3. Generates PRD.md, spec.md, tasks.md, progress.md\n4. Updates project with brand colors\n5. Creates legal pages (if requested)\n6. Ensures SEO compliance\n\nExample: /generate-landing-page\n\nCategories: Food & Beverage, Fashion, Electronics, Home & Garden, Beauty, Toys, Sports, B2B, SaaS"
+    }
+  ]
+}

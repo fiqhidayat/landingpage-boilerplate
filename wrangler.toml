@@ -1,0 +1,24 @@
+name = "landingpage-boilerplate"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+# Cloudflare Pages configuration
+pages_build_output_dir = "dist"
+
+# Environment
+env = "production"
+
+# Compatibility date
+compatibility_date = "2026-01-01"
+
+# Build configuration
+[build]
+command = "npm run build"
+cwd = "./"
+root = "."
+
+# Cloudflare Pages settings
+[env.production]
